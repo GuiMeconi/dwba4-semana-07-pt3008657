@@ -1,0 +1,94 @@
+<html>
+<style>
+	input[type=text] {
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+	}
+
+	button[type=submit] {
+		width: 100%;
+		background-color: #4CAF50;
+		color: white;
+		padding: 14px 20px;
+		margin: 8px 0;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+	}
+
+	button[type=submit]:hover {
+		background-color: #45a049;
+	}
+
+	div.grey {
+		border-radius: 5px;
+		background-color: #f2f2f2;
+		padding: 20px;
+	}
+</style>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="stylesheet" text="text/css" href="style.css" />
+	<title>Entrar - IFSP - Pirituba</title>
+	<div id="menuhorizontal">
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="eventos.html">EVENTOS</a></li>
+			<li><a href="contato.html">CONTATO</a></li>
+			<li class="dropdown"><a href="#">CURSOS</a>
+				<div class="dropdown-content">
+					<a href="ads.html">Análise e Desenvolvimento de Sistemas</a>
+					<a href="ep.html">Engenharia de Produção</a>
+					<a href="gti.html">Gestão em Tecnologia da Informação</a>
+					<a href="letras.html">Letras</a>
+					<a href="gp.html">Gestão Pública</a>
+				</div>
+			</li>
+			<li><a href="entrar.html">ENTRAR</a></li>
+			<div class="direita">
+				<li><a href="sobre.html">SOBRE</a></li>
+			</div>
+		</ul>
+		<img src="images/Logo.jpg">
+  </div>
+</head>
+<body>
+    <h1>Entrar</h1>
+    <form method="POST">
+        <div class="grey">
+            <label for="usuario">Usuário</label>
+            <input type="text" name="usuario" required>
+        </div>
+
+        <br>
+        <div class="grey">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" required>
+        </div>
+
+        <br>
+        <div class="grey">
+            <button type="submit">Entrar</button>
+            <a href="#">Esqueci a Senha</a>
+        </div>
+    </form>
+
+    <br><br><br>
+    <a href="https://www.facebook.com/ifsppirituba">
+        <img src="images/facebook.png" width="42px" title="IFSP Facebook">
+    </a>
+    <br>
+    <footer>
+        <p>
+          IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100
+      </p>
+  </footer>
+</body>
+</html>
